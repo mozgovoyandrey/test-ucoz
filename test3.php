@@ -6,13 +6,7 @@
  * Time: 12:04
  */
 
-$config = array(
-    'mysql_host'    => '',
-    'mysql_login'   => '',
-    'mysql_pass'    => '',
-    'mysql_db'      => '',
-);
-
+include_once "config.php";
 
 $mysql = connectDB($config['mysql_host'],$config['mysql_login'],$config['mysql_pass'],$config['mysql_db']);
 
