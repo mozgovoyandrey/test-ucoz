@@ -114,8 +114,6 @@ if method == 4:
         if Z[i] == Z[i+1]:
             R.append(Z[i])
         i += 1
-        if i%10000 == 0:
-            print(i)
 
 print(R)
 
